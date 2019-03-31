@@ -3,8 +3,8 @@ def oxford_comma(array)
     array.join(" and ")
   else 
     new= array.join(", ")
-    new_pop = new.
-    return "#{a} and #{new.last}"
+    new_pop = new.shift
+    return "#{new.shift} and #{new.last}"
   end  
    
 end

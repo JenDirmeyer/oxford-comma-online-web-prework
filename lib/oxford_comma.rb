@@ -3,6 +3,7 @@ def oxford_comma(array)
     array.join(" and ")
   else 
     array.join(", ")
+    "#{array(1..(array.length -1))} and #{array.last}"
   end  
-   "#{array(1..(array.length -1))} and #{array.last}"
+   
 end
